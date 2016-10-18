@@ -1,3 +1,4 @@
+GIT
 
 初始化一个Git仓库，使用git init命令。
 
