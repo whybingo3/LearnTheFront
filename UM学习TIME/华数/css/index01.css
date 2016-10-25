@@ -1,0 +1,95 @@
+*{ 
+	margin:0;
+	padding:0;
+	max-width:980px; 
+	font-family: "Microsoft YaHei";
+	list-style: none;
+	text-decoration: none;
+} 
+
+
+.banner{
+	padding-top: 39.33%;  
+	background-image: url(../img/shouye/circle.png);
+	background-size:cover;
+	background-position: center;  /*Internet Explorer 7/8*/
+} 
+/* end banner */
+span{
+	display: inline-block;
+	margin-top: 2%
+}
+marquee{position: absolute;}
+.color{color:red;}
+.color marquee{color:#000;}
+/* end marquee */
+
+.main{
+	width:100%;
+	color:#aaaaaa;
+}
+.main li{
+	width:49%;
+	float: left;
+	border:1px solid #e1e1e1;
+	position: relative;
+}
+.li1{height:13em;}
+.li2,.li3{height: 6.5em;}
+.main a{
+	display:inline-block;
+	font-size: 1.5em;
+	margin-top: 2%;
+}
+.a1{color:#89c997;}
+.a2{color:#5ab0e2;}
+.a3{color:#f5a747;}
+.main img{
+	position: absolute;
+	top:19%;
+	left:55%;
+	width:37%;
+	height:69%;
+}
+.main .color0{ color:#ff9600;}
+.main .color1{ color: #5ab0e2;}
+.main .color2{ color:#c498f9;}
+.main .color3{ color:#ff440a;}
+.main .p1{	
+	border:1px solid;
+	border-radius: 10px;
+	font-size: 0.5em;
+	width:30%;
+	margin-left: 4%;
+}
+/* end  main */
+
+.kge{
+	width: 100%;
+	clear: both;
+	padding-top: 26.8%;  
+	background: url(../img/shouye/kge.png) no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+
+/* end  kge */
+
+.footer {
+	width:100%;
+	margin-left: 6%;
+}
+.footer li{
+	width:20%;
+	float: left;	
+	margin-top: 3%;
+}
+.footer a{
+	color:#aaaaaa;
+}
+.footer li:nth-child(3) a{
+	color: #eb4f38;
+}
+
+/* end  footer */
+
