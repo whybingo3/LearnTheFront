@@ -1,3 +1,3 @@
 # LearnTheFront
 学习前端
-HTML CSS JavaScript
+HTML CSS JavaScrip
