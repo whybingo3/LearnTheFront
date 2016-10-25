@@ -1,3 +1,6 @@
 # LearnTheFront
 学习前端
-HTML CSS JavaScrip
+
+1. HTML
+2. CSS
+3. JavaScrip
