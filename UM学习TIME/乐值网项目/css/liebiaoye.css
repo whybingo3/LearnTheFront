@@ -1,0 +1,118 @@
+.main{
+	clear:both;
+}
+.content{
+	width:1200px;
+	margin:0 auto;
+
+}
+.nav li{
+	margin-right: 5px;
+	color:#c6c6c6;
+}
+
+.left{
+	width:210px;
+	font-size: 14px;
+	
+}
+.left div{
+	height: 40px;
+	line-height: 40px;
+	background: #ddd;
+	font-size: 14px;
+	padding-left: 10px;
+	position: relative;
+}
+.left .img1{
+	position: absolute;
+	top:16px;
+	right:15px;
+}
+.left li img{
+	position: absolute;
+	left: 3px;
+}
+.left li{
+	padding:10px 20px;
+	 
+	position: relative;
+}
+.right{
+	width:970px;
+	border:1px solid #ddd;
+	margin-bottom: 39px;
+}
+.right  .top{
+	height: 40px;
+	line-height: 40px;
+	background: #ddd;
+	font-size: 14px;
+	padding-left: 10px;
+	position: relative;
+}
+.right .top li{
+	float: left;
+	padding-left: 28px;
+}
+.right .top img{
+	position: absolute;
+	top:15px;
+}
+
+.right .spszd{
+	 margin-left: 273px;
+	 
+}
+
+.right .input{
+	margin-right: 22px;
+}
+.right input{
+	margin-left: 10px;
+	margin-top:2px;
+}
+
+
+
+
+.right .neirong li{
+	height:300px;
+	width:220px;
+	float: left;
+	margin-top:10px;
+	margin-left: 15px;
+	border:1px solid #ddd;
+	position: relative;
+}
+.right .neirong .textline{
+	text-decoration: line-through;
+	 
+}
+.right .neirong .dingwei {
+	position: absolute;
+	left:157px;
+	bottom: 3px;
+	border:1px solid #ddd;
+}
+
+
+
+
+
+
+.nav_b{
+	clear:both;
+	width:1200px;
+	margin-left: 910px;
+	text-align: center;
+}
+.nav_b li{
+	float: left;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #000;
+	border-radius:30px;
+	margin-left: 35px;
+}

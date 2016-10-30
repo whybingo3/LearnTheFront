@@ -33,13 +33,30 @@ body {
 	background:#d6133b;
 	color:#fff;
 }
+.navR {
+	position: relative;
+}
 .navR img{
 	margin-left: 5px;
 }
+.navR .xiala{
+	display: none;  
+	position: absolute;
+
+}
+.navR .xiala a{
+	display: block;
+}
+.navR li:hover .xiala{
+	display: block;
+}
+ 
 /*end nav*/
 
 .main{
 	width:1920px;
+	overflow: hidden;
+	margin-bottom: 155px;
 }
 
 .logo{
@@ -76,12 +93,12 @@ body {
 	float: left;
 	margin-right: 5px;
 }
-input[type="text"]{
+.search_C input[type="text"]{
 	margin-left: 16px;
 	border:none;
 	outline:none;
 }
-input[type="button"]{
+.search_C input[type="button"]{
 	 height: 35px;
 	 width:80px;
 	 color:#fff;
@@ -110,7 +127,7 @@ input[type="button"]{
 }
 
 .blank{
-	height: 45px;
+	height: 48px;
 	clear: both;
 }
 .menutop{
@@ -133,30 +150,10 @@ input[type="button"]{
 }
 .banner{
 	position: absolute;
+	left: 0px;
 	z-index: -1;
 }
-.menu .sidebar_left{
-	width:200px;
-	background: #d6133b;
-}
 
-.menu .sidebar_left li{
-	height: 48px;
-	line-height: 48px;
-	position: relative;
-	text-indent: 58px;
-	border-bottom:2px solid #a60425;
-
-}
-.sidebar_left a{
-	color:#fff;
-}
-.sidebar_left img{
-	position:absolute;
-	left: 30px;
-	top:13px;
-}
-/* end sidebar_left */
 .sidebar_right{
 	width:235px;
 	/* height: 384px; */
@@ -264,19 +261,21 @@ div.gonggao span{
     font-size: 14px;
 
 }
-.f-tab li:hover{
+.f-tab li:hover {
     border-top:3px solid #C81623;
     border-left:1px solid #C81623;
     border-right:1px solid #C81623;
     border-bottom:1px solid #fff;
 }
-/
-.on-2{
+.one_fesc{
+	border-top:1px solid #C81623;
+}
+/* .on-2{
     border-top:3px solid #C81623;
     border-left:1px solid #C81623;
     border-right:1px solid #C81623;
     border-bottom:1px solid #fff;
-}
+} */
 .f-tab li:hover span{
     display: none;
 }
@@ -348,7 +347,7 @@ div.gonggao span{
 .tab-content li{
 	float: left;
 	width:264.5px;
-	height:155px;
+	height:149px;
 	border:1px solid #ddd;
 	position: relative;
 }
@@ -366,5 +365,156 @@ div.gonggao span{
 
 .tab-content li:last-child{
 	 width:529px;
+	 text-align: center;
 }
+.footer{
+	clear:both;
+	width:1920px;
+	background: #f5f5f5;
+ 
+ 
+}
+.footer_1{
+	width:1200px;
+	margin:0 auto;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.foo_t{
+	width:1200px;
+}
+.foo_t li{
+	float: left;
+	width:300px;
+	text-align: right;
+	position: relative;
+}
+.foo_t img{
+	position: absolute;
+	top:30px;
+	left:61px;
+}
+.foo_t h1{
+	margin:42px 43px 0 0;
+}
+.foo_t p{
+	margin:6px -11px 0 0;
+	color:#c1c1c1;
+	font-size:18px;
+}
+.foo_b >li{
+	float: left;
+	width:135px;
+	text-align:left;
+	margin-left:39px;
+	margin-top:24px;
+}
+.foo_b >li li{
+	height: 35px;
+	line-height: 35px;
+	font-size:16px;
+}
+.foo_b >li li:first-child{
+	font-weight: bold;
+}
+.last{
+	width:1200px;
+	margin:0 auto;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+
+}
+
+/* sidebar_left 下拉菜单样式 */
+.dropbtn {
+    background-color: #D6133B;
+    color: white;
+    width:200px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover{
+    background: #A50425;
+}
+.menu .sidebar_left{
+    position: absolute;
+    top:182px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;  
+    position: absolute;
+    background-color: #d6133b;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.sidebar_left:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content li:hover,
+.dropdown-content li:hover .red{
+    background: #fff;
+    color:red;
+}
+.dropdown-content li{
+    padding-left: 37px;
+    line-height: 48px;
+    position: relative;
+    border-bottom:2px solid #a60425;
+
+}
+.dropdown-content a{
+    color:#fff;
+}
+.dropdown-content img{
+    position:absolute;
+    left:9px;
+    top:13px;
+}
+
+.link{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top:0;
+    width:715px;
+    background:#fff;
+
+}
+.link_1 h4{
+    width:100px;
+    text-align: left;
+    padding-left: 20px;
+    display: inline-block;
+    float:left;
+}
+.link_1 h4 a{
+    color:#000;
+}
+.link .link_1 .link--1{
+    width:530px;
+    display: inline-block;
+}
+.link--1 a{
+    color:#666; 
+    margin-right: 20px;
+}
+.link .link_1{
+
+    border-bottom:1px solid #666;
+     
+}
+
+.dropdown-content li:hover .link{
+    display: block;
+}
+
 

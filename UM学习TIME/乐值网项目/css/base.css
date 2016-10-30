@@ -81,9 +81,30 @@ img{border:none;}
 
 .mb20{margin-bottom:20px;}
 
-.bgf4f4f4{background:#f4f4f4;}
-.bgd6133b{background: #d6133b;}
-/* 背景颜色 */
 
-.cofc9c43{color:#fc9c43;}
+.pl30{padding-left:30px;}
+/* 背景颜色 */
+.bgfff{background:#fff;}
+.bgf4f4f4{background:#f4f4f4;}
+.bgd6133b{background:#d6133b;}
+.bgd6133b{background:#d6133b;}
+.bge77608{background:#e77608;}
+.bgf7f8f8{background:#f7f8f8;}
+.bg35d3c9{background:#35d3c9;}
+.bge77174{background:#e77174;}
+ 
+
 /*字体颜色*/
+.cofc9c43{color:#fc9c43;}
+.cof78b0b{color:#f78b0b;}
+.cob7b8b8{color:#b7b8b8;}
+.co6ad9c4{color:#6ad9c4;}
+.coff966e{color:#ff966e;}
+.coa6c676{color:#a6c676;}
+.cob6bbbc{color:#b6bbbc;}
+.cof4b479{color:#f4b479;}
+.co999{color:#999;}
+.cod9445c{color:#d9445c;}
+
+.fontb{font-weight: bold;}
+
