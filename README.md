@@ -1,8 +1,5 @@
 # LearnTheFront
-学习前端
-<<<<<<< HEAD
-HTML CSS JavaScrip
-=======
-HTML CSS JavaScript
-whybingo
->>>>>>> origin/master
+已经自学半年的前端知识，基本入门HTML,CSS和JavaScript。但是感觉知识呈散片状态，常常需要辅助工具，查找资料，追根到底，就是基础知识不够扎实。   
+把基础知识扎好，方可有上升的空间。
+
+
